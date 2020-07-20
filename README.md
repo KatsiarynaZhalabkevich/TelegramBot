@@ -28,7 +28,7 @@
 > - Token: 1395499760:AAHrUXVGuAROo6EWy-1oIMR6cISCmirKCJQ
 
 ### REST
-
+> JSON file for requests: src/main/resourses/validJsonFile.json
 > - Get all cities: GET http://localhost:8080/cities/ 
 > - Get city by id: GET http://localhost:8080/cities/id
 > - Get city by name: GET http://localhost:8080/cities/city/name
