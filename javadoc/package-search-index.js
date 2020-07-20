@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.resliv.task"},{"l":"com.resliv.task.bot"},{"l":"com.resliv.task.controller"},{"l":"com.resliv.task.dao"},{"l":"com.resliv.task.entity"},{"l":"com.resliv.task.service"},{"l":"com.resliv.task.service.impl"}]
