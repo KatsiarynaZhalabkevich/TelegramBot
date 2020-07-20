@@ -1,6 +1,5 @@
 package com.resliv.task.service.impl;
 
-import com.resliv.task.bot.Bot;
 import com.resliv.task.dao.CityDAO;
 import com.resliv.task.entity.City;
 import com.resliv.task.service.CityService;
@@ -10,8 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.sql.SQLException;
-import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.List;
 import java.util.Optional;
 

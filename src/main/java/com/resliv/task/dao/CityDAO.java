@@ -3,7 +3,6 @@ package com.resliv.task.dao;
 import com.resliv.task.entity.City;
 import org.springframework.data.repository.CrudRepository;
 
-
 import java.util.Optional;
 
 /**
