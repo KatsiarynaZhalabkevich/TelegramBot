@@ -16,8 +16,8 @@ src/resourses/script.sql
 
 
 ### TelegramBot
-Username: @BeluzhkaBot
-Token: 1395499760:AAHrUXVGuAROo6EWy-1oIMR6cISCmirKCJQ
+> - Username: @BeluzhkaBot
+> - Token: 1395499760:AAHrUXVGuAROo6EWy-1oIMR6cISCmirKCJQ
 
 ### REST
 
