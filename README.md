@@ -1,18 +1,26 @@
 # TelegramBot
 
 ### Technologies: 
-Spring Boot, Spring Data, Hibernate, JPA, REST, Spring MVC, MySQL, JUnit, Mockito, Maven
+> Spring Boot, Spring Data, Hibernate, JPA, REST, Spring MVC, MySQL, JUnit, Mockito, Maven
 ### Java version: 14
 
 ### Start the app:
-com.resliv.task.TelegramBotApplication 
+> com.resliv.task.TelegramBotApplication 
+## Main Settings
+### Bot:
+> src/main/resourses/bot.properties
+### App:
+> src/main/resourses/application.properties
+### SQL:
+> src/main/resourses/script.sql
 
-### Bot settings:
-src/resourses/bot.properties
-### App settings:
-src/resourses/application.properties
-### SQL script:
-src/resourses/script.sql
+## Test Settings
+### App:
+> src/test/resourses/application.properties
+### SQL scripts:
+> src/test/resourses/create-city-before.sql 
+> src/test/resourses/create-city-after.sql
+
 
 
 ### TelegramBot
