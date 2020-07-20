@@ -3,6 +3,7 @@ package com.resliv.task.service.impl;
 import com.resliv.task.dao.CityDAO;
 import com.resliv.task.entity.City;
 import com.resliv.task.service.CityService;
+import com.resliv.task.service.validation.Validator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,8 +37,8 @@ public class CityServiceImpl implements CityService {
     @Override
     public List<City> addCities(List<City> cities) {
         List<City> citiesFromBD = (List<City>) dao.findAll();
-        cities.removeAll(citiesFromBD);
-        return (List<City>) dao.saveAll(cities);
+        List<City> newCityList = Validator.makeCityListValid(citiesFromBD, cities);
+        return newCityList.size() != 0 ? (List<City>) dao.saveAll(newCityList) : null;
     }
 
     @Override
